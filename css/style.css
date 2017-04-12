@@ -1,1 +1,124 @@
 /* This style is created to mimick the Andela website */
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: helvetica;
+}
+.clear{clear: both;}
+header .container{
+	background-image: url('../images/header-img.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: none;
+	max-height: 700px;
+}
+
+.main-header{
+	background-color: #fff;
+	padding: 10px 40px;
+	max-height: 65px;
+}
+.header-logo{
+	float:left;
+	max-width: 20%;
+}
+.nav-cont{
+	float: left;
+	max-width: 70%;
+	padding: 0px 15px;
+	margin-top: 10px;
+	margin-left: 120px;
+}
+
+.nav-cont ul{
+	display: inline;
+	line-height: 25px;
+}
+
+.nav-cont ul li{
+	display: inline-block;
+	float: left;
+	font-size: 18px;
+	font-family: helvetica;
+	font-weight: bold;
+	color:#3e433e;
+	list-style:none;
+	cursor: pointer;
+	padding: 10px 0px;
+}
+
+.nav-cont ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color:#3e433e;
+}
+
+.nav-cont ul li ul{
+	display: none;
+	float: none;
+	position: absolute;
+	top:55px;
+	background-color: #fff;
+	padding-bottom: 15px;
+	z-index: 1;
+}
+
+.nav-cont ul li ul li:first-child:before{
+	content: '';
+	height: 4px;
+	width: 100%;
+	background-color: blue;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+}
+.nav-cont ul li ul li{
+	display: block;
+	float: none;
+	width: 200px;
+	padding: 0px;
+}
+
+.nav-cont ul li ul li a{
+	padding: 2px 20px;
+	font-size: 14px;
+	color:#949494;
+}
+
+.nav-cont ul li:hover, .nav-cont ul li a:hover{
+	color:#3359df;
+}
+
+.nav-cont ul li:hover > ul{
+	display: block;
+}
+
+.learn-more{
+	max-width: 10%;
+	float: left;
+	padding-top:10px;
+}
+
+.button{
+	border:thin solid #3359df;
+	border-radius: 3px;
+	color: #3359df;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	padding:15px;
+}
+
+.slider-cont{
+	min-height: 550px;
+	color:white;
+	background-color: rgba(0,0,0, 0.6);
+	padding:120px;
+	font-size: 90px;
+	font-weight: bold;
+	line-height: 80px;
+}
+.blue{
+	color: #3359df;
+}
