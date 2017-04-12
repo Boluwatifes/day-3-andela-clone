@@ -5,6 +5,9 @@
 	box-sizing: border-box;
 	font-family: helvetica;
 }
+a{
+	text-decoration: none;
+}
 .clear{clear: both;}
 header .container{
 	background-image: url('../images/header-img.jpg');
@@ -121,4 +124,72 @@ header .container{
 }
 .blue{
 	color: #3359df;
+}
+
+.hiring{
+	padding: 30px 80px;
+	background-color: #3359df;
+	height: 80px;
+	color: #fff;
+	font-size: 19px;
+	line-height: 25px;
+	padding-bottom: 0px;
+}
+
+.hiring .left{
+	max-width: 80%;
+	float: left;
+}
+
+.hiring .right{
+	max-width: 20%;
+	float: right;
+}
+.hiring .right a{
+	color:#fff;
+	font-size: 14px;
+}
+.btn-black{
+	background-color: #000;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.ad{
+	background-image: url('../images/bg-2.jpg');
+	background-position: left;
+	background-size: cover;
+	height: 266px;
+	margin-bottom: 30px;
+}
+
+.ad-content{
+	padding: 50px;
+	width: 70%;
+	position: relative;
+	right: -400px;
+}
+.ad-content h4{
+	font-size: 28px;
+	font-weight: normal;
+	margin: 40px 0px 20px 0px;
+}
+
+.ad-content p{
+	font-size: 18px;
+}
+
+.ad-footer {
+	font-weight: bold;
+	color: white;
+	padding: 5px 30px;
+}
+.ad-footer .name{
+	font-size:12px;	
+}
+
+.ad-footer .desig{
+	font-size: 10px;
 }
