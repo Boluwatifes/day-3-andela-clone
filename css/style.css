@@ -225,3 +225,30 @@ header .container{
 
 
 .grey{background-color:#f7f7f7;}
+
+.testimonial{
+	background-image: url('../images/bg-3.jpg');
+	background-position: top;
+	background-size: cover;
+	height: 255px;
+	font-size: 24px;
+	color: #fff;
+	padding:70px 120px;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.testimonial p{
+	margin-bottom: 20px;
+}
+
+.testimonial .footer img{
+	float: left;
+	margin-right: 10px;
+}
+
+.testimonial .footer .name{
+	font-size: 18px;
+	float: left;
+	margin-top: 20px;
+}
